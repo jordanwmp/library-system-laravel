@@ -1,0 +1,9 @@
+##### SISTEMA BIBLIOTECA ####
+
+BIBLIOTECARIO (id, nome, matricula, status(ativo, inativo))
+ALUNO (id, nome, matricula, status (adimplente, inadimplente))
+AUTOR (id, nome)
+LIVRO (id, titulo, subtitulo, edicao, mes, ano, registro, id_editora, autor_id)
+EMPRESTIMO (id, data_emprestimo, data_devolucao, id_aluno, id_livro)
+DEVOLUCAO (id, data_emprestimo, data_devolucao, id_aluno, id_livro)
+EDITORA(id, nome)
