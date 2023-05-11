@@ -16,3 +16,15 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+
+// Route /teste apenas para teste. Pode ser apagado junto com teste.blade.php em resources
+Route::get('/teste', function () {
+    return view('teste');;
+});
+//-----------------------------------------------------------------------------------------
+
+// Route /teste apenas para teste. Pode ser apagado junto com teste2.blade.php em resources
+Route::get('/teste2', function () {
+    return view('teste2');;
+});
+//-----------------------------------------------------------------------------------------
